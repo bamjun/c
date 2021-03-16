@@ -1,5 +1,16 @@
 #include <stdio.h>
 int main() {
   printf("Hello, World! \n");
+  
+  int a;
+  a = 127;
+  //%o 8진수 %d 10진수 %x 16진수
+  printf("a 의 값은 %d 진수로 %o 입니다. \n", 8, a);
+  printf("a 의 값은 %d 진수로 %d 입니다. \n", 10, a);
+  printf("a 의 값은 %d 진수로 %x 입니다. \n", 16, a);
+  
+  
+  
+  
   return 0;
 }
