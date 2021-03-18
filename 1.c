@@ -106,6 +106,7 @@ int main()
   printf("a & b = %d\n", a & b);
   printf("a && b = %d\n", a && b);
 	// & and 연산자   && 조건문and     if ( a && b)
+	// | or연산자 || 조건문 or    if( 
 
 
 	
