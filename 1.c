@@ -108,7 +108,14 @@ int main()
 	// & and 연산자   && 조건문and     if ( a && b)
 	// | or연산자 || 조건문 or    if( a||b)
 	// !a    a == 0
-
+/*
+	if ( a >= b)
+	if ( a > b)
+	if ( a <= b)
+	if ( a < b)
+	if ( a == b)
+	if ( a != b)
+*/
 
 	
 	
