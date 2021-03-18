@@ -99,6 +99,19 @@ int main()
 
   printf("char : %c , short : %d , int : %d ", ch, sh, i);
   printf("long : %ld , float : %f, double : %f \n", lo, fl, du);
+	
+	
+
+  int a = 31, b = 15;
+  printf("a & b = %d\n", a & b);
+  printf("a && b = %d\n", a && b);
+	// & and 연산자   && 조건문and     if ( a && b)
+
+
+	
+	
+	
+
   
   
   return 0;
