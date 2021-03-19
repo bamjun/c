@@ -23,6 +23,18 @@ int main()
 			printf("no \n");
 		}
 	}
+	
+for (a = 1; a <= 100; a++)
+	{
+		if (a % 5 != 0)
+		{
+			continue;
+		}
+		else
+		{
+			printf("%d \n", a);
+		}
+	}
   
   
   
