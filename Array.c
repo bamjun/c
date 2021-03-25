@@ -3,6 +3,7 @@
 int main() {
     int arr[10] = { 2, 10, 30, 21, 34, 23, 53, 21, 9, 1 };
     int i;
+    int sum = 0;
     printf("배열의 바이트 크기%d 배열의 요소 크기%d \n", sizeof(arr), sizeof(arr) / sizeof(int));
     
     printf("오름차순\n");
@@ -15,6 +16,17 @@ int main() {
     {
         printf("배열의 %d 번째 원소 : %d \n", i + 1, arr[i]);
     }
+    
+    
+    for (i = 0; i < sizeof(arr) / sizeof(int); i++) {
+        sum += arr[i];
+    }
+    prinf("배열 전체 합 %d", sum);
+    
+
+    
+    
+    
 
     return 0;
 }
