@@ -23,7 +23,30 @@ int main() {
     }
     prinf("배열 전체 합 %d", sum);
     
+    
+    int numarr[2][3] = {
+        {1,2,3},  //[0][]
+        {4,5,6},  //[1][]
+    };
+    
+    int numarr1[2][3] = { 0, };
+    
+    int nu = sizeof(numarr11)    //48
+    int col = sizeof(numarr1[0]) / sizeof(int);   //3
+    int row = sizeof(numarr) / sizeof(numarr1[0]);    //2
+    int j;
+    for ( i = 0 ; i < col ; i++)
+    {
+        for (j = 0 ; j < row ; j ++)
+        {
+            printf("%d", numarr1[i][j]);
+        }
+        printf("\n");
+        
+    }
+    
 
+    
     
     
     
