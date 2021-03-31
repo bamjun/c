@@ -12,7 +12,19 @@ int main()
 
   printf("포인터 p 에 들어 있는 값 : %p \n", p);
   printf("int 변수 a 가 저장된 주소 : %p \n", &a);
-  //%p 주소값
+  //%p 주소값   
+  
+  int *p;
+  int a;
+
+  p = &a;
+  *p = 3;
+  
+  printf("a 의 값 : %d \n", a);
+  printf("*p 의 값 : %d \n", *p);
+  //*(포인터) 변수의 값
+  
+  
 
 
   
